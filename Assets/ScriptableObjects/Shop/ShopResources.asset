@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 087e8c09e513414da3f6b191fb12058e, type: 3}
+  m_Name: ShopResources
+  m_EditorClassIdentifier: Shop::Shop.Data.ShopResources
+  <ShopProductViewPrefab>k__BackingField: {fileID: 6086211358495480437, guid: a12a4493b99324eabaab8cc957d716c3, type: 3}
+  <ShopViewPrefab>k__BackingField: {fileID: 1530066510658000764, guid: cca0df976b3a54e48ae66d5c83361223, type: 3}
+  <BuiltInProducts>k__BackingField:
+  - {fileID: 11400000, guid: fe9771ea9869643579b2068518e9ccef, type: 2}
+  - {fileID: 11400000, guid: 846b08bb9206b4403bdc0fabdc2952cb, type: 2}
+  - {fileID: 11400000, guid: af25e6b4c7bc14a7490004710fda712d, type: 2}
+  - {fileID: 11400000, guid: 5c353c5f58dd9477eb5537e905006290, type: 2}
+  - {fileID: 11400000, guid: aaf0df452deca455e9e8c36d85dc72c4, type: 2}
+  - {fileID: 11400000, guid: 50bbc0f66290e4508a1fc522413f2002, type: 2}
+  <ShopCardSceneBuildIndex>k__BackingField: 1
