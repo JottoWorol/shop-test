@@ -64,6 +64,7 @@ namespace Shop
                 for (var i = 0; i < shopResources.BuiltInProducts.Length; i++)
                 {
                     var shopProduct = new ShopProduct(shopResources.BuiltInProducts[i]);
+                    shopProduct.priceResourceUpdated += OnProductPriceResourceUpdated;
                     result[i] = shopProduct;
                 }
 
@@ -118,6 +119,12 @@ namespace Shop
             }
             
             productCardSceneController.OpenForProduct(shopProduct);
+        }
+        
+        private void OnProductPriceResourceUpdated()
+        {
+            shopViewController.UpdateProductsViewState();
+            productCardSceneController.UpdateCurrentProductViewState();
         }
     }
 }

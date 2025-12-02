@@ -2569,7 +2569,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Location::Location.LocationSystem
   labelView: {fileID: 360885144}
-  config: {fileID: 11400000, guid: ff67b30a437f54fe3ab3084642d04299, type: 2}
+  resources: {fileID: 11400000, guid: ff67b30a437f54fe3ab3084642d04299, type: 2}
 --- !u!4 &1616135490
 Transform:
   m_ObjectHideFlags: 0
